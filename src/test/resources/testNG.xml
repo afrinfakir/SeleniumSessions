@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My Test Suite" thread-count="3"
+	parallel="tests">
+
+
+	
+	<test name="Amazon Test">
+		<classes>
+			<class name="testng_basics.AmazonTest" />
+		</classes>
+	</test>
+
+	<test name="Basics">
+		<classes>
+			<class name="testng_basics.Testng_basics" />
+		</classes>
+	</test>
+	
+	<test name="Google test">
+		<classes>
+			<class name="testng_basics.GoogleTest" />
+		</classes>
+	</test>
+
+
+
+</suite>
